@@ -6,8 +6,8 @@
 /logs/
 /world/data/
 /world/playerdata/*.*
+!/world/playerdata/4389b797-ee91-4e30-be08-895eb3cbfe30.dat
 !/world/playerdata/5805414b-969d-48dc-9ca9-2a2c6e7e8f22.dat
-!/world/playerdata/63f92114-e1ef-4b74-84b9-d0b50701c3b7.dat
 /world/session.lock
 /world/stats/
 /banned-ips.json
@@ -18,6 +18,11 @@
 /mcedit2-win*
 /##world.UNDO##/
 
+
+### MapCrafter ###
+mapcrafter_*/*
+mapcrafter_*/*/
+!mapcrafter_*/render.conf
 
 ### Overviewer ##
 /overview-*/
